@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Chatbot</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .chatbot-container {
+      width: 100%;
+      max-width: 800px;
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+    }
+
+    .chatbot-header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    iframe {
+      width: 100%;
+      border: none;
+      height: 500px;
+    }
+
+    .chatbot-footer {
+      background-color: #f1f1f1;
+      padding: 10px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+      border-top: 1px solid #ddd;
+    }
+
+    .chatbot-footer a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="chatbot-container">
+    <div class="chatbot-header">
+      UniversityInfo Chatbot
+    </div>
+    <iframe
+      src="https://www.chatbase.co/chatbot-iframe/mQ8mlY16u5rgaqaD_rnya"
+      frameborder="0"
+    ></iframe>
+    <div class="chatbot-footer">
+      Powered by <a href="https://www.chatbase.co" target="_blank">Chatbase.co</a>
+    </div>
+  </div>
+</body>
+
+</html>
